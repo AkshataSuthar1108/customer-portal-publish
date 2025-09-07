@@ -1,0 +1,257 @@
+.top-banner h1{
+	margin-top:30px;
+	
+}
+.about-banner{
+	max-height:363px;
+}
+.about-us-sec{
+	margin:100px 0 0;
+	}
+.media-about {
+  margin: 20px 0;
+}
+.media-about-sec {
+    margin: 20px 0;
+    padding-right: 50px;
+}
+.media-about-sec {
+    background: #d5f0fb;
+}
+.media-about-content{
+	position:relative;
+	min-height:270px;
+}
+.highlight{background:#ccd4e0; }
+.kp-th-header{background:#cbecfa!important; color:#000!important;}
+
+.media-about-sec button[type=submit]{
+    background: #1a1446;
+    color: #fff;
+    border-radius: 30px;
+    padding: 15px 20px 15px;
+    margin: 10px 0 20px;
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    max-width: 200px;
+    width: 100%;
+    transition: all .3s ease-in;
+	position:absolute;
+	bottom:0px;
+}
+.media-about-sec button[type=submit]:hover {
+    background: #ffffff;
+    border-color: #1a1446;
+    color: #1a1446;
+}
+.tg{border-collapse:collapse;border-spacing:0; width:100%; margin-bottom:20px;}
+.tg td{border-color:#c7c0b8;border-style:solid;border-width:1px;
+  overflow:hidden; padding:10px 15px;word-break:normal;  width:50%; color:#000;}
+.tg th{border-color:#c7c0b8;border-style:solid;border-width:1px; background:#002663; color:#fff;
+  font-weight:normal;overflow:hidden;padding:10px 15px;word-break:normal; padding:10px 15px;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+
+.media-about-sec img {
+    max-width: 100%;
+}
+.our-leadership {
+    margin: 30px 0 0;
+}
+.our-leadership .leaders {
+    padding: 20px 15px;
+    margin: 130px 10px 20px;
+    min-height: 350px;
+    overflow: visible;
+	border:3px solid #d9d9d9;
+	    transition: all .3s ease-in;
+}
+.leaders-holder{
+	position:relative;	
+	    overflow: hidden;
+}
+
+.our-leadership .leaders:hover {	
+	background:#b5b3c3;
+}
+.leaders-holder:hover .leaders-knowmore{
+	  bottom: 10%;
+}
+.leaders-pic {
+    overflow: visible;
+    margin: -120px 0 20px;
+}
+.modal-content{
+	padding:40px; 
+	
+}
+.our-leadership .leaders  h3, .modal-content h3{
+	color:#002663;
+	font-weight:bold;
+}
+.leaders p {
+    margin: 10px 0;
+}
+.leaders-text{
+	margin-top:60px;
+	}
+.leaders-knowmore-text{
+		margin-top:80px;	
+}
+ .know-btn {
+    color: #fff!important;
+    text-decoration: none;
+    padding: 15px 30px;
+	background:#160f38!important;
+    border-radius: 30px;
+	display:none;
+	width: 60%;
+    margin: 20px auto;
+	transition: all .3s ease-in;
+}
+.know-btn:hover {
+	color: #1a1446!important;
+	background:#ffd000!important;
+
+}
+.our-leadership .leaders:hover .know-btn {
+    display: block;
+	
+}
+.leaders-knowmore:hover > .leaders {
+    background-color:#b5b3c3!important;
+}
+ .know-btn:hover .leaders{	
+	background:#b5b3c3!important;
+}
+.scrollbar {
+  float: left;
+  height: 100%;
+  max-height: calc(100vh - 200px);
+  padding-right: 50px;
+  width: 90%;
+  background: #FFF;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+}
+
+.force-overflow
+{
+  max-height: 380px!important;
+}
+
+#style-1::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+  width: 8px;
+  background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+@media screen and (max-width: 767px) {
+	.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}
+	.media-about-sec{
+		padding: 0;
+		text-align: center;
+	}
+
+	.media-about-content {
+		position: relative;
+		min-height: 200px;
+	}
+	.media-about-sec button[type=submit]{
+			margin: 0 auto;
+				position:inherit;
+		}
+	.privacy-fraud-protection  .bprivacy {
+	    width: 	100%!important;
+		margin-bottom:20px;
+	}
+	.privacy-fraud-protection .bfraud{
+		 width: 	100%!important;
+	}
+	 .know-btn{
+		 display:block;
+	 }
+	 .scrollbar {
+  width: 100%;
+      padding-right: 20px;
+	 }
+	}
+
+@media only screen and (device-width: 768px) {
+  .privacy-fraud-protection  .bprivacy {
+	    width: 	26%!important;
+	}
+	.privacy-fraud-protection .bfraud{
+		 width: 	41%!important;
+	}
+}
+
+.privacy-fraud-protection {
+    text-align: center;
+    margin: 20px 20px 20px;
+}
+.privacy-fraud-protection span{
+	margin: 0 10px;
+	
+}
+.privacy-fraud-protection .bprivacy {
+    background-color: #1a1446;
+    color: #fff;
+    padding: 20px 25px;
+	font-size:16px;
+    border-radius: 30px;
+    margin-right: 20px;
+    display: inline-block;
+    /*width: 17%;*/
+    text-align: center;
+}
+.privacy-fraud-protection .bfraud {
+    background-color: #f0c00c;
+    padding: 20px 25px;
+	font-size:16px;
+    border-radius: 30px;
+    margin-right: 20px;
+    display: inline-block;
+    /*width: 25%;*/
+    text-align: center;
+}
+.privacy-fraud-protection .bfraud:hover {
+    text-decoration: none;
+    background-color: #1a1446;
+    color: #f0c00c;
+}
+.privacy-fraud-protection .bprivacy:hover {
+    text-decoration: none;
+    background-color: #f0c00c;
+    color: #1a1446;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.leaders-pic img{
+	max-width:100%;}
+	.know-btn {
+    display: block;
+}
+.know-btn, .know-btn:hover{
+	    padding: 15px 0px;
+}
+.our-leadership .leaders{
+	min-height: 380px;
+}
+.leaders-text h3{
+	    word-wrap: break-word;
+}
+}
+

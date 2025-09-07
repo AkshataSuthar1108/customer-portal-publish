@@ -1,0 +1,417 @@
+
+.downloadforms-header{
+  margin: 3% 0; 
+}
+.download-tabs { padding: 0!important; }
+.download-tabs li { width: 20%; float: left; border: 1px solid #fff; }
+.download-tabs li a { width: 100%; }
+
+.download-tabs>li.active>a,
+.download-tabs>li.active>a:focus,
+.download-tabs>li.active>a:hover {
+  color: #160f38;
+  background:#f9bf00;
+  border-radius: inherit;
+  border:none;
+}
+.download-tabs > li > a, .panel-default>.panel-heading a {color: #fff; display: block; padding: 15px 10px; margin: 0px 0px; font-size: 16px; font-weight:bold; border:none;}
+.panel-default>.panel-heading a {
+  background-color:#f9bf00;
+  padding-left: 50px;
+  text-align: left;
+  font-size: 18px;
+}
+.abt-us-sec .panel-default>.panel-heading a { padding: 15px 10px !important; text-align: center; }
+.panel-default>.panel-heading a.collapsed {
+  background: rgba(26,20,70,1);
+}
+.panel-default .panel-body { padding: 15px 0; }
+.download-tabs > li > a img { height: 30px; margin-right: 5px; }
+.download-tabs > li, .panel-default>.panel-heading {background-color: #1a1446; margin: 0; padding: 0;}
+.download-tabs > li > a, .panel-default>.panel-heading a {background: rgba(26,20,70,1);}
+.download-tabs > li:first-child{border-top-left-radius: 10px; border-bottom-left-radius: 10px;}
+.download-tabs > li:last-child{border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
+.download-tabs>li>a:focus, .download-tabs>li>a:hover{border-radius: inherit; color: #160f38;background:#f9bf00;}
+.download-content-sec{
+  margin:20px 0;
+  /*padding:0px 40px;*/
+}
+.media-content{
+  padding:0px 20px;
+}
+.media-content h2{
+  margin:0px;
+}
+.media-about {
+  margin: 20px 0;
+}
+.media-about-sec {
+  margin: 20px 0;
+  padding-right: 50px;
+}
+.media-about-sec {
+  background: #d5f0fb;
+}
+.media-about-content{
+  position:relative;
+  min-height:263px;
+}
+.panindia-offices{
+  background: url(../images/media/110offices-in-india.png) no-repeat top center;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 50px 50px 100px;
+  min-height: 300px;
+  margin: 30px 0;
+}
+.download-sec-content .tab-pane .panindia-offices-text {
+  max-width: 400px;
+  width: 100%;
+}
+.download-sec-content .tab-pane .panindia-offices-text h3 {
+  color: #1a1446;
+  font-size: 64px;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1em;
+}
+.download-sec-content .tab-pane .panindia-offices-text h3 span {
+  display: block;
+  font-size: 36px;
+  line-height: inherit;
+}
+.about-liberty-sec {
+  margin: 30px 0 10px;
+  background: #ffd000;
+}
+.media-sec-img{
+  margin:50px 0;
+  padding:30px;
+}
+.download-sec-content{
+  padding:0;
+}
+.download-sec-content .tab-pane {
+  margin-top: 20px;
+  text-align: left;
+}
+#company-profile { margin-top: 0; }
+.download-sec-content .tab-pane h3 {
+  font-size: 24px;
+}
+.about-dp-jindal-sec {
+  background: #d5f0fb;
+}
+.know-details-sec {
+  background: url(../images/media/know-more-liberty-section.jpg) no-repeat center center;
+  background-size: cover;
+}
+.vision-values{
+  padding: 40px;
+  overflow: hidden;
+  margin: 20px 0;
+  min-height: 740px;
+}
+.vision {
+  background: #86dfde;
+  background-image: url(../images/media/our-vision-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.values {
+  background: #86b2df;
+}
+.media {
+  margin: 20px 0 0 !important;
+  padding: 0;
+}
+.media h2 {
+  margin: 25px 0 10px;
+}
+.vision-values .media-heading {
+  margin: 0 !important;
+}
+.ceo-title h2 {
+  margin:0px;
+}
+.ceo-title h4{
+  margin:0px;
+  color:#808080;
+}
+
+.forms-section-tabs {margin:0px;}
+.forms-section-tabs>li.active>a, .forms-section-tabs>li.active>a:focus, .forms-section-tabs>li.active>a:hover{color: #160f38; border-radius: inherit;}
+.forms-section-tabs > li > a{color: #a4a3ab; padding: 12px 35px; margin: 0px 0px; font-size: 18px;}
+.forms-section-tabs > li{background-color: #fbfbfb; border: 1px solid #aeaeae; margin: 0px -3px;}
+.forms-section-tabs > li:first-child{border-top-left-radius: 10px; border-bottom-left-radius: 10px;}
+.forms-section-tabs > li:last-child{border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
+.forms-section-tabs>li>a:focus, .forms-section-tabs>li>a:hover{border-radius: inherit; color: #160f38;}
+
+.downloadforms-box {
+  background-color: #f5f5f4;
+  border: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-top: 20px;
+min-height: 420px;
+    max-height: 420px;
+}
+.downloadforms-box img{
+  width:100%;
+}
+.downloadforms-box a {
+  background: #1a1446;
+  border-radius: 10px;
+  padding: 10px 20px 10px;
+  margin: 10px auto 20px;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+  text-align: center;
+  font-size: 16px;
+  max-width: 150px;
+  width: 100%;
+  transition: all .3s ease-in;
+}
+.downloadforms-box a:hover {
+  background: #ffd000;
+  color: #1a1446;
+}
+.downloadforms-box h4 {
+  color: #000!important;
+  font-size: 19px;
+  line-height: 1.4em;
+  min-height: 120px;
+  text-align: center;
+  padding: 20px 20px;
+  margin: 0px!important;
+  text-transform:capitalize;
+}
+.micp-bx h4 {
+  min-height: 120px!important;
+}
+.media-pic-holder { margin: 20px 0 0; }
+.media-pic-holder img{
+  max-width: 100%;
+}
+.media-contact-holder p {
+  margin: 10px 0 30px;
+}
+.media-contact{
+  margin:20px 0;  
+}
+.media-body, .media-left, .media-right {
+    vertical-align: top;
+}
+.download-content-sec .nav-tabs{
+	margin-top:0px;}
+@media(min-width: 768px) and (max-width: 1024px){
+  .forms-section-tabs > li > a{padding: 10px 10px; font-size: 20px; min-width: 90px; }  
+  .downloadforms-box h4 {
+    color: #000!important;
+    min-height: 120px;
+    font-size: 18px;
+  }
+  .media-contact-holder{
+    background-size: 80%;
+  }
+  .downloadforms-box  button[type=submit] {
+    left:1%;
+  }
+  .download-tabs > li > a {
+    padding: 40px 10px
+  }
+  .media-sec-img {
+    padding: 0px;
+  }
+  .downloadforms-box{
+    min-height: 380px;
+  max-height: 380px;
+  }
+.download-tabs li {width: 23%;}
+}
+
+@media only screen and (max-width:1024px) {
+  .vision-values {
+    min-height: 830px;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 991px) {
+  .vision-values {
+    min-height: 600px;
+  }
+  .downloadforms-box h4 {
+    font-size: 16px;
+    min-height: 120px;
+  }
+    .downloadforms-box{
+    min-height: 340px;
+  max-height: 340px;
+  }
+  .download-tabs > li > a {
+    font-size: 14px;
+    padding: 15px 5px;
+  }
+  .download-tabs > li > a img {
+    display: block;
+    height: 35px;
+    margin: 0 auto 10px;
+  }
+  .know-details-sec{
+    background: #1a1446 !important;
+}
+}
+
+@media(min-width: 320px) and (max-width: 767px){  
+  .forms-section-tabs > li { margin: 0; width: 28%; }
+  .forms-section-tabs > li > a{padding: 10px 5px 9px; font-size: 14px; height: 55px; width: 100%; min-width: auto;}
+  .forms-section-tabs > li:first-child {border-top-left-radius: 0px; border-bottom-left-radius: 0px;}
+  .forms-section-tabs > li:last-child {border-top-right-radius: 0px; border-bottom-right-radius: 0px;}
+  .panindia-offices { padding: 20px 20px 50px; min-height: 230px; margin: 20px 0 10px; }
+  .download-sec-content .tab-pane .panindia-offices-text h3 { font-size: 46px; }
+  .download-sec-content .tab-pane .panindia-offices-text h3 span { font-size: 30px; }
+  .download-content-sec {
+    margin: 20px 0;
+    padding: 0px;
+  }
+  .downloadforms-box button[type=submit] {
+    left: 20%;
+  }
+  .downloadforms-box h4 {
+    font-size: 16px;
+    min-height: auto;
+    text-align: center;
+  }
+  .vision-values {
+    padding: 10px 20px;
+  }
+  .ceo-pic img { margin: 0 auto; }
+  .ceo-title h2 {
+    margin: 20px 0 0px;
+  }
+  .download-tabs {text-align: center; margin: 10px 0;}
+  .download-tabs li {
+    width: 18%;
+    margin-top: 3px;
+    border-radius: 0!important;
+    float: none;
+  }
+  .download-tabs li a {    
+    padding: 5px;
+    font-size: 12px;
+    min-width: auto;
+  }
+  .download-tabs > li > a img {
+    display: none;
+  }
+  .download-sec-content .tab-pane h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .media-contact-holder { min-height: 480px; }
+  .media-sec-img {
+    margin: 10px 0;
+    padding: 15px;
+  }
+  .media-sec-img img { max-width: 70%; margin: 0 auto; }
+  .media h2 {
+    text-align: center;
+    margin: 5px 0 10px;
+  }
+  .media h2 img { max-width: 50px; }
+  .ceo-title h4 {
+    text-align: center;
+  }
+  .media-left img { max-width: 40px; }
+  .media-heading { margin-top: 8px !important; font-size: 16px; }
+  .know-details-sec{
+    background: #1a1446 !important;
+}
+}
+
+@media only screen and (max-width:360px) {
+  .download-tabs li a {    
+    padding: 5px 2px !important;
+    font-size: 10px;
+  }
+}
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+      .forms-section-tabs > li { margin: 0; width: 32%; } }
+
+.forms-accordion .p-heading {
+  padding: 0;
+  border:0;
+}
+.forms-accordion .panel-group .panel,.forms-accordion .panel-default{
+  border: none!important;
+}
+.forms-accordion .p-title>a,.forms-accordion .p-title>a:active{
+  display:block;
+  padding:15px;
+  font-size:16px;
+  font-weight:bold;
+  text-decoration:none;
+
+}
+.forms-accordion .p-heading.active{
+    background: grey!important;
+}
+.forms-accordion .p-heading  a:before {
+   font-family: 'Glyphicons Halflings';
+  content:"\e259";
+   float: right;
+   transition: all 0.5s;
+}
+.forms-accordion .p-heading.active a:before {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+} 
+
+.p-heading {
+  padding: 0;
+  border:0;
+}
+.panel-title>a, .panel-title>a:active{
+  display:block;
+  padding:15px;
+  font-size:16px;
+  font-weight:bold;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  word-spacing:3px;
+  text-decoration:none;
+}
+.panel-title>a{  
+  color:#191244;
+}
+ .tab-content .panel .active a {
+  background: #1a1446;
+  color: #fff!important;
+}
+.p-heading{
+  background: #d1d0da;
+}
+.p-heading  a:before {
+   font-family: 'Glyphicons Halflings';
+   content: "\e259";
+   float: right;
+   transition: all 0.5s;
+}
+.p-heading.active a:before {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+} 
+.panel-default{
+  border: none;
+}
+@media (max-width: 360px) and (min-width: 320px){
+.forms-section-tabs > li > a {
+      font-size: 11px;
+}
+}

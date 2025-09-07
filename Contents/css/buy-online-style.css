@@ -1,0 +1,2205 @@
+/*  Buy Online CSS   */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+.errorMsg { display: none !important; }
+.clsmandatory { color: #ff0000; }
+.checkbox label { font-size: 16px; }
+.checkbox input[type=checkbox]
+{
+  top:2px;
+  margin-left: -25px;
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+}
+.home-promotion-save { background: #1a1446; padding: 5px 30px; color: #fff; display: block; font-size: 20px; font-weight: 400; font-family: 'Roboto', sans-serif; width: 250px; margin: 0 auto; line-height: 1em; }
+.home-promotion-save span { display: block; }
+.home-promotion-save.bike { font-size: 42px; font-weight: 700; }
+.home-promotion-save.health { font-size: 26px; font-weight: 700; }
+.home-promotion-save.health span { color: #ffd000; }
+.home-promotion-price { font-size: 68px; font-weight: 900; color: #1a1446; font-family: 'Roboto', sans-serif; margin: 10px 0 0; line-height: 1em;}
+.home-promotion-price .fa {font-size: 85%;}
+.home-promotion-car { font-size: 30px; font-weight: 900; color: #1a1446; font-family: 'Roboto', sans-serif; text-transform: uppercase; line-height: 1em; margin: 0;}
+.home-promotion-health { font-size: 23px; font-weight: 700; color: #1a1446; margin: 5px 0; font-family: 'Roboto', sans-serif; text-transform: capitalize; line-height: 1em;}
+.buynow-page { padding: 0 !important; }
+.informationbx { position: relative; background: #1a1446; padding: 0 0 50px;}
+.informationbx_bg { /*background: url('../images/car-info-banner.png') no-repeat left bottom; background-size: contain; */position: absolute; bottom: 0; left: 20px}
+.informationbx_bg_yellow {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  /*height: 200px;*/
+  background: url(../images/home-promotion-bg.png) no-repeat bottom center;
+  background-size: contain;
+  /*border-top-left-radius: 200px;
+  border-top-right-radius: 200px;*/
+  border-bottom: 0;
+}
+.informationbx_bg_yellow .informationbx_yellow_content {
+  max-width: 95%;
+  padding: 40px 0 20px;
+  margin: 0 auto;
+  min-height: 245px;
+}
+.informationbx_yellow_content p {
+  color: #1a1446!important;
+  margin: 0;
+}
+.informationbx_bg > img { display: block; margin: 0 auto; }
+.threedetailbxs { padding: 20px 0; background: #fff; display: block; overflow: hidden; }
+.threedetailbxs ul { margin:0px; padding-left: 0;  }
+.threedetailbxs ul li:first-child { border-radius:10px 0 0 10px; }
+.threedetailbxs ul li:last-child { border-radius: 0 10px 10px 0; }
+.threedetailbxs ul li {font-size:24px; color:#a4a3ab; display:block; width:33.33%; float:left; background:#fbfbfb; padding:20px 0; text-align:center; border: 1px solid #aeaeae;}
+.threedetailbxs ul li.active {color: #160f38; background: #ffd000;}
+.health-buynow .threedetailbxs ul li { font-size:21px; width:25%; line-height: 1.6em;}
+
+
+.innrinformationbx { width:100%; /*margin:15px 0; padding: 30px 0;*/}
+.innrinformationbx h3, .prm_renewdtlbxs h3 { text-align:center; font-weight:400; font-size:30px; color:#fff; margin: 30px 0; }
+.innrinformationbx h3 .yellow-txt { color: #ffd000; }
+.yellow-txt { color: #ffd000; }
+.inpt-wrap input { margin-top: 0; }
+.innrinformationbx h5 { text-align:center; font-weight:400; font-size:18px; color:#fff; margin: 20px 0; }
+.sec-banner {
+  background: #ffd000;
+  position: relative;
+  border-radius: 5px;
+  min-height: 150px;
+  padding-top: 10px;
+  margin-top: 30px;
+  width: 100%;
+}
+.sec-banner.health-insurance {
+  background: url('../images/health-sec-banner-bg.jpg') center no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  padding: 25px 80px;
+}
+.sec-banner.health-insurance .offer-wrap {
+  background: #1a1446;
+  position: relative;
+  margin: 0;
+  padding: 10px 20px 10px 100px;
+}
+.sec-banner.health-insurance .offer-wrap .health-banner-icon {
+  position: absolute;
+  left: -30px;
+  top: 0;
+}
+.sec-banner.health-insurance h3 {
+  color: #160f38!important;
+  margin: 30px 0 20px;
+  text-align: center;
+  line-height: 1.2em;
+  font-size: 36px;
+  font-weight: 700;
+}
+.sec-banner.health-insurance h3 span {
+  color: #ffd000;
+  line-height: 1.2em;
+}
+.sec-banner.health-insurance .offer-wrap h3 {
+  color: #fff!important;
+  margin: 0;
+}
+.sec-banner img { max-width: 100%; }
+.sec-banner .promotional-pic-wrap {
+  display: table;
+  margin: 0 auto;
+  min-height: 140px;
+}
+.sec-banner .promotional-pic-wrap .promotional-pic {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+.promotional-text {
+  padding: 0 0 0 50px;
+  margin: 20px 0;
+}
+.promotional-text h3 {
+  text-align: left;
+  color: #1a1446 !important;
+  margin: 0;
+  font-size: 54px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1em;
+}
+.promotional-text.bike h3 {
+  text-align: center;
+  font-size: 54px;
+}
+.promotional-text h3 span {
+  font-weight: 900;
+  line-height: 1em;
+}
+.promotional-text.bike h3 span {
+  background: #1a1446;
+  padding: 0 20px;
+  color: #fff;
+}
+.promotional-text h4 {
+  text-align: left;
+  color: #fff;
+  margin: 0;
+  font-weight: 400;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+.promotional-text.bike h4 {
+  margin-top: 5px;
+  text-align: center;
+}
+.promotional-text h4 span {
+  font-weight: 900;
+  line-height: 1em;
+}
+.promotional-text.bike h4 span {
+  font-size: 30px;
+  color: #1a1446;
+}
+
+#carnumberform { margin:30px auto 0; max-width:450px; text-align: center;}
+#carnumberform .carnumbrinptbx { height:55px; font-size:18px; font-weight:bold; width:100%; border:1px solid #c9cacb; padding:0 20px; background:#fff; border-radius:10px; color:#3d3c3c; }
+/*#carnumberform .carnumbrinptbx::-webkit-input-placeholder { color: #3d3c3c; opacity:1; }*/
+#carnumberform .carnumbrinptbx::-moz-placeholder { color: #3d3c3c; opacity:1; }
+#carnumberform .carnumbrinptbx:-ms-input-placeholder { color: #3d3c3c; opacity:1; }
+#carnumberform .carnumbrinptbx:-moz-placeholder { color: #3d3c3c; opacity:1; }
+.numbrinptbx { text-transform:capitalize; height:55px !important; min-width: auto!important; font-size:18px; font-weight:bold; width:100px !important;padding:0 20px; background:#fff; border-radius:30px; color:#3d3c3c; outline: none; }
+/* #carnumberform .proceedbtn { text-align:center; cursor:pointer; height:65px; float:right; font-size:20px; text-indent:-99999px; font-weight:bold; color: #fff; border:0px; background:url(../../Images/proceed_button.png) no-repeat center top/100% 100%; width:40%; transition-duration:.5s; -webkit-transition-duration:.5s;  box-shadow:0px 4px 2px -2px rgba(205, 103, 18, 0.55); opacity:.8; } */
+#carnumberform .proceedbtn:hover { opacity:1; transition-duration:.5s; -webkit-transition-duration:.5s; }
+#carnumberform .backProceedbtn:hover { opacity:1; transition-duration:.5s; -webkit-transition-duration:.5s; } /*Added By Bijan*/
+#carnumberform .carnmbx { padding:30px 10px 20px; }
+#carnumberform .carnmbx p {  display:inline-block; vertical-align:middle;  text-align: center;}
+#carnumberform .carnmbx p a {  color: #fff; text-decoration:none;  padding: 10px 20px; border: 1px solid #fff; border-radius: 30px; }
+#carnumberform .carnmbx p a:hover { color: #1a1446; border: 1px solid #ffd000; background: #ffd000;  }
+.backProceedbtn { text-align: left;}
+.proceedbtn { text-align: right;}
+
+.backrepremumbtn { float: left; }
+/*.repremumbtn { float: right; }*/
+
+.proceedbxs .proceedbtn {text-align: center;}
+
+#myModalretrieveQuote .modal-dialog {
+  /*margin: 100px auto 10px;*/
+  max-width: 600px;
+}
+
+#myModalthankYou .thanku-pic img {
+  padding: 0 50px;
+  border-bottom: 2px solid #ffd000;
+}
+
+#myModalthankYou .modal-content { background: rgba(0,0,0,0.95); }
+
+#myModalthankYou h3 { color: #fff; }
+
+#myModalthankYou h4 { color: #ffd000; }
+
+.inscarmodaldetail { text-align: center; padding: 30px 0; }
+
+.inscarmodaldetail p {
+  font-size: 21px;
+  margin: 20px 0 10px;
+}
+
+.inscarmodaldetail .submitbtnbx {
+  margin-top: 30px;
+}
+
+.abtyoudtls {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+/*.abtyoudtls div {
+  display: inline-block;
+  width: 30%;
+  padding: 0 7px;
+}*/
+
+/*.abtyoudtls div input {
+  height: 55px;
+  font-size: 18px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 30px;
+  color: #3d3c3c;
+}
+.abtyoudtls span {
+  float: left;
+}*/
+.cardrivedtlbx { width:100%; margin: 30px 0; overflow: hidden;}
+.cardrivedtlbx .carnameinptbx { float:left; width:35%; margin:0 5% 0 0; }
+.cardrivedtlbx .carmodelctbx { float:left; width:28%; margin:0 2% 0 0; appearance: none; -webkit-appearance: none; -moz-appearance: none; border: 1px solid #c9cacb; height: 55px; font-size: 18px; font-weight: bold; border-radius: 30px; color: #3d3c3c; box-shadow: none;   padding: 0 20px;}
+#secRegNoAvl .proceedbtn { float: right; margin: 0; }
+
+
+.innrinformationbx ul, .prm_renewdtlbxs ul, .bult { width:100%;list-style: none; overflow: hidden; text-align: left; padding: 0; } /*Changed By Bijan from 50 to 66 for Adusting 3 radio buttons*/
+.innrinformationbx ul li, .prm_renewdtlbxs .radio-wrap ul li { float:left; position: relative; width:30%; border-radius: 30px; border:  1px solid #d6d5d5; margin: 0 15px 0 0; }
+
+/*.tooltipbxs {
+  background: #ffd000;
+  padding: 10px 15px;
+  display: none;
+  width: 500px;
+}*/
+
+
+/*customizing tooltip color*/
+/*right tooltip*/
+.tooltip.right > .tooltip-arrow {
+  border-right-color: #ffd000;
+}
+
+/*bottom tooltip*/
+.tooltip.bottom > .tooltip-arrow {
+  border-bottom-color: #ffd000;
+}
+
+/*top tooltip*/
+.tooltip.top > .tooltip-arrow {
+  border-top-color: #ffd000;
+}
+
+/*left tooltip*/
+.tooltip.left > .tooltip-arrow {
+  border-left-color: #ffd000;
+}
+
+/*tooltip inner*/
+.tooltip > .tooltip-inner {
+  background-color: #ffd000;
+  text-align: left;
+  padding: 15px;
+  color: #160f38;
+  font-weight: normal;
+  max-width: 250px;
+}
+
+.innrinformationbx .row {
+  margin: 0 -10px;
+}
+
+.innrinformationbx .row > div {
+  padding: 0 10px;
+}
+
+.input-wrapper {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 15px 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px 20px 10px 130px;
+}
+
+.input-wrapper.no-padding {
+  padding-left: 20px;
+}
+
+.input-wrapper.manufacturing-icon {
+  background-image: url('../images/manufacturing-icon.jpg');
+}
+
+.input-wrapper.registration-date-icon {
+  background-image: url('../images/registration-date-icon.jpg');
+}
+
+.input-wrapper.rto-icon {
+  background-image: url('../images/rto-icon.jpg');
+}
+
+.input-wrapper.policy-type-icon {
+  background-image: url('../images/policy-type-icon.jpg');
+}
+
+.input-wrapper.policy-date-icon {
+  background-image: url('../images/policy-date-icon.jpg');
+}
+
+.input-wrapper.last-claim-icon {
+  background-image: url('../images/last-claim-icon.jpg');
+}
+
+.input-wrapper.policy-tenure-icon {
+  background-image: url('../images/policy-tenure-icon.jpg');
+}
+
+.input-wrapper.previous-year-no-claim-icon {
+  background-image: url('../images/previous-year-no-claim-icon.jpg');
+}
+
+.input-wrapper.policy-about-you-icon {
+  background-image: url('../images/policy-about-you-icon.jpg');
+}
+
+.input-wrapper.policy-your-information {
+  background-image: url('../images/policy-your-information.jpg');
+}
+
+.input-wrapper.policy-your-gst-info {
+  background-image: url('../images/policy-your-gst-info.jpg');
+}
+
+.input-wrapper.communication-state-icon {
+  background-image: url('../images/communication-state-icon.jpg');
+}
+
+.input-wrapper.policy-your-gstin {
+  background-image: url('../images/policy-your-gstin.jpg');
+}
+
+.input-icon img {
+  height: 105px;
+  width: 105px;
+}
+
+.bright-bg h3, .bright-bg h4, .bright-bg h5, .bright-bg h6, .bright-bg p, .bright-bg label {
+  color: #000 !important;
+}
+
+.input-wrapper label, .prm_renewdtlbxs label {
+  margin: 10px 0;
+  font-size: 18px;
+  display: block;
+  padding: 0 10px;
+  font-weight: 400;
+}
+
+.input-wrapper label.empty-lable, .prm_renewdtlbxs label.empty-lable {
+  margin: 0;
+  height: 15px;
+}
+
+.input-wrapper > h3 {
+  color: #160f38 !important;
+  margin-bottom: 20px;
+}
+
+.health-buynow .input-wrapper > h3 {
+  text-align: left;
+}
+
+.input-wrapper > h3 > label {
+  font-weight: 700;
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.input-wrapper > h5 {
+  color: #666471!important;
+}
+
+.input-wrapper > h5 > a {
+  color: #666471;
+  font-weight: 700;
+}
+
+.innrinformationbx input[type=text], .carmodelslctbx .carnameinptbx, .prm_renewdtlbxs input[type=text] {
+  border: 1px solid #d6d5d5;
+  text-transform:capitalize;
+  height:55px;
+  margin-bottom: 10px;
+  font-size:16px;
+  outline: none;
+  font-weight:400;
+  padding:0 20px;
+  background:#fff;
+  border-radius:30px;
+  color:#3d3c3c;
+  width: 100%;
+  min-width: 160px;
+  max-width: 360px;
+}
+
+.innrinformationbx select, .prm_renewdtlbxs select {
+  border: 1px solid #d6d5d5;
+  text-transform:capitalize;
+  height:55px;
+  width: 100%;
+  max-width: 360px;
+  min-width: 160px;
+  font-size:16px;
+  font-weight:400;
+  outline: none;
+  padding:0 20px;
+  margin-bottom: 10px;
+  background:#fff;
+  border-radius:30px;
+  color:#3d3c3c;
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ffffff;
+  -webkit-appearance: none;
+  background-position-x: 90%;
+}
+
+.ms-options-wrap > button:focus, .ms-options-wrap > button {
+    border: 1px solid #d6d5d5;
+    text-transform: capitalize;
+        text-align: left;
+    height: 55px;
+    width: 100%;
+    max-width: 360px;
+    min-width: 160px;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #fff;
+    border-radius: 30px;
+    color: #3d3c3c;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ffffff;
+    -webkit-appearance: none;
+    background-position-x: 90%;
+}
+
+.polstepbxs {
+  margin: 20px 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.polstepbxs .backProceedbtn {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.polstepbxs .proceedbtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+p.step-num {
+  color: #fff;
+  font-weight: 400;
+  font-size: 23px;
+  margin: 20px 0;
+}
+
+.innrinfrmnbx1 h3 {
+  margin: 20px 0 10px;
+}
+
+.innrinfrmnbx1 .container > h3, .ins_commentbx1 .container > h3 {
+  margin: 30px 0 20px;
+}
+
+.innrinfrmnbx1 ul li {
+  min-width: 160px;
+  width: auto !important;
+  margin-bottom: 20px;
+}
+
+.accesslstdivbxs ul li {
+  width: 200px !important;
+}
+
+.innrinfrmnbx1 ul li label {
+  font-size: 16px;
+}
+
+/*.vchfinancebx ul li {
+  width: 300px !important;
+}*/
+
+.checkbox { margin: 10px 0; }
+
+.checkbox label { padding: 0 20px 0 30px !important; text-align: left !important; }
+
+.input-wrapper ul li label, .radio-wrap ul li label { padding: 5px 20px 5px 20px; height: 34px;}
+
+.cntcarprmbx1 ul li label { padding-right: 70px; height: auto;}
+
+.input-wrapper ul li input[type=radio], .radio-wrap ul li input[type=radio] { float:right;}
+
+.input-wrapper ul li input[type=checkbox] { margin-right: 15px; }
+
+.info { position: absolute; right: 20px; top: 13px; }
+
+/*.vchfinancebx ul li label { padding: 5px 20px 5px 25px; }
+
+.prmnomdetailbx ul li label { padding: 5px 20px 5px 25px; }*/
+
+/*.accesslstdivbxs ul li label {
+  padding: 5px 20px;
+}*/
+
+.innrinfrmnbx1 p {
+  font-weight: 700;
+  font-size: 18px;
+  margin:30px 0 20px;
+}
+
+.innrinfrmnbx1 h4 {
+  margin: 40px 0 20px;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.innrinfrmnbx1 h5 {
+  margin: 10px 0 30px;
+  font-size: 14px;
+}
+
+.innrinfrmnbx1 .input-wrapper {
+  margin: 15px 0;
+  padding: 20px 30px;
+}
+
+.ins_commentbx1 .input-wrapper {
+  background: #fffae5;
+  margin: 15px 0;
+  padding: 20px 30px;
+}
+
+.carpremiumbx .input-wrapper .rupeebox p {
+  margin: 10px 0;
+}
+
+.carpremiumbx .input-wrapper .rupeebox label {
+  background: #1a1446;
+  color: #fff !important;
+  font-size: 36px;
+  font-weight: 700;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 20px 50px 18px;
+  margin: 0 auto;
+}
+
+.carpremiumbx .input-wrapper .rupeebox label span {
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.carpremiumbx .input-wrapper .rupeebox label input[type=radio] {
+  vertical-align: middle;
+}
+
+.carpremiumbx .input-wrapper .rupeebox h5 {
+  color: #585858 !important;
+  font-size: 14px;
+  margin: 15px 0 25px;
+}
+
+.prmoffrbxs {
+  margin-bottom: 30px;
+}
+
+#breakbtnbx {
+  border: 1px solid #1a1446;
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+#breakbtnbx:hover {
+  text-decoration: none;
+}
+
+.adidvbxs h4 {
+  color: #160f38;
+  margin: 10px 0;
+  font-size: 26px;
+}
+
+.adidvbxs img { max-width: 100%; margin: 0 auto; }
+
+.lftcarprmbx1 { padding: 20px; border-right: 1px solid #f6db4e; }
+
+.renwpolicydetlbx h4 { font-size: 30px; color: #160f38 !important; text-align: center; }
+
+.lftrenwplcydtlbx { padding: 20px; }
+
+.lftrenwplcydtlbx p {
+  border: 1px solid #e1e1e1;
+  font-size: 21px;
+  color: #191244;
+  display: inline-block;
+  padding: 10px 30px;
+  background: #f1f1f1;
+  border-radius: 30px;
+  margin: 60px 0 20px;
+}
+
+.rgtcarprmbx1 { padding: 20px; min-height: 600px; }
+
+.rgtrenwplcydtlbx { padding: 20px; text-align: center; border-left: 1px solid #f6db4e; }
+
+.renwpolicydetlbx .yeardtlbx {
+  border: 1px solid #e1e1e1;
+  font-size: 42px;
+  margin: 10px 0;
+  background: #1a1446;
+  border-radius: 50px; 
+  color: #fff!important;
+  display: inline-block;
+  padding: 10px 50px; 
+}
+
+.renwpolicydetlbx .yeardtlbx span:last-child {
+  font-size: 24px;
+}
+
+.renwpolicydetlbx .mnthdtlbx {
+  border: 1px solid #e1e1e1;
+  font-size: 30px;
+  background: #f1f1f1;
+  margin: 10px 0;
+  border-radius: 30px; 
+  color: #1a1446!important;
+  display: inline-block;
+  padding: 10px 30px; 
+}
+
+.renwpolicydetlbx .mnthdtlbx span:last-child {
+  font-size: 18px;
+}
+
+.rgtrenwplcydtlbx  p {
+  color: #626078 !important;
+}
+
+.prmnomdetailbx label { font-size: 16px; color: #1a1446; }
+
+.carpremiumbx .premium-pie-sec { position: relative; min-height: 500px; }
+
+.premium-lisa-pic {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.premium-lisa-pic img { max-width: 300px; width: 100%; }
+
+.inrsmilyiconbx { margin: 30px 0 0; }
+
+.inrsmilyiconbx ul li {
+  border: none;
+  margin: 5px;
+  min-width: auto;
+}
+
+#divpiechart {
+  margin: 10px 0 30px;
+}
+
+#divpiechart { text-align: center; max-width: 300px; }
+
+#divResetPremium {
+  text-align: center;
+  max-width: 300px;
+}
+
+#divpiechart img { max-width: 280px; width: 100%; }
+
+.premium-breakup-lisa-wrap {
+  margin-top: 50px;
+}
+
+.scrollbar {
+  float: left;
+  height: 100%;
+  max-height: calc(100vh - 200px);
+  padding-right: 50px;
+  width: 90%;
+  background: #FFF;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+}
+
+.force-overflow
+{
+  min-height: 400px;
+}
+
+#style-1::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+  width: 8px;
+  background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+
+.dark-bg > h3 { text-align: center; margin: 30px 0; }
+
+.pl_custnamebx hr { border-top-color: #ddd; }
+
+.pl_viewbxs h3 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.pl_viewbxs h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 40px 0 15px;
+}
+
+.pl_viewbxs ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pl_viewbxs ul li {
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 10px 0 0;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+
+.pl_viewbxs ul li:last-child, .pl_viewbxs ul li.total-sec {
+  background: #fefcef;
+}
+
+.pl_viewbxs ul li span {
+  float: right;
+  font-weight: 700;
+  min-width: 100px;
+}
+
+.dwnprpslbx p {
+  font-size: 18px;
+}
+
+.dwnprpslbx .cta-btn { padding: 10px 30px;}
+
+.ins_commentbx1 label.pl-title {
+  color: #7b7782;
+  font-size: 21px;
+}
+
+.ins_commentbx1 .ply_detailbx_wrap {
+  max-width: 320px;
+  width: 100%;
+}
+
+.ins_commentbx1 .ply_detailbx_wrap span {
+  font-weight: 700;
+}
+
+.ins_commentbx1 label.pl-value {
+  background: #fff;
+  border: 1px solid #acacac;
+  border-radius: 30px;
+  font-weight: 700;
+  margin: 0 auto 30px;
+  text-transform: uppercase !important;
+  color: #191244;
+  font-size: 18px;
+  padding: 10px 20px;
+  max-width: 360px;
+}
+
+.ins_commentbx1 label.pl-value.PremiumTotalValue {
+  background: #1a1444;
+  color: #fff;
+  text-align: center;
+  width: 250px;
+}
+
+.ins_commentbx1 .checkbox label { font-size: 15px; }
+
+.paymentWrap .PaymentRadio {
+  float: left;
+  margin-right: 10px;
+}
+
+.pay-wrap {
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  display: inline-flex;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.payment-methd {
+  padding: 0 0 0 130px;
+  margin: 30px 0;
+}
+
+.payment-methd label {
+  margin: 0
+}
+
+.payment-methd.payu {
+  background: url(../images/pay-u.jpg) no-repeat 0 0;
+}
+
+.payment-methd.paytm {
+  background: url(../images/paytm.jpg) no-repeat 0 0;
+}
+
+.renewcdetpgbx .otp-sec h4 {
+  font-size: 18px;
+}
+
+.otp-btn-wrap {
+  display: inline-block;
+  width: 100%;
+  max-width: 220px;
+}
+
+.otp-inpt-wrap {
+  vertical-align: bottom;
+  display: inline-flex;
+}
+
+#OTPdiv {
+  margin: 20px 0;
+}
+
+#OTPdiv input[type="text"] {
+  border: 1px solid #1a1446;
+  height: 50px;
+  font-size: 21px;
+  display: inline-block;
+  outline: none;
+  margin: 10px 10px 10px 0;
+  padding: 15px 20px;
+  border-radius: 30px;
+  width: 150px;
+}
+
+#OTPdiv .cta-btn {
+  background: #1a1446;
+  border: 1px solid #1a1446;
+  display: inline-block;
+  font-size: 18px;
+  outline: none;
+  padding: 10px 30px;
+  color: #fff;
+  height: 50px;
+  border-radius: 30px;
+}
+
+#OTPdiv .cta-btn:hover {
+  background: #ffd000;
+  border: 1px solid #ffd000;
+  color: #1a1446;
+}
+
+.ply_detailbx_box {
+  border-bottom: 2px solid #d6af00;
+  padding: 20px 0;
+}
+
+.pie-chart-wrap {
+  margin: 30px 0 20px;
+}
+
+.pie-chart-wrap .row {
+  margin: 0 -5px;
+}
+
+.pie-chart-wrap .row > div {
+  padding: 0 5px;
+}
+
+.pie-chart-wrap img {
+  max-width: 80%;
+}
+
+.pie-chart-details {
+  margin: 30% 0 0;
+}
+
+.thanku-premium-detail {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.thanku-premium-detail th, .thanku-premium-detail td {
+  border: 1px solid #ffd000;
+  padding: 10px;
+}
+
+.thanku-premium-detail th {
+  background: #1a1446;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+
+.thanku-premium-detail td {
+  background: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.rating-meter-sec {
+  max-width: 400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.prminpdtlbx {
+  /*min-height: 130px;*/
+  /*margin: 20px 0;*/
+}
+
+.abtyoudtls .prminpdtlbx {
+  min-height: auto;
+}
+.total-premium-wrap {
+  margin: 30px 0 0;
+}
+
+.total-premium-wrap h3 { margin: 10px; display: inline-block; font-weight: 700; color: #1a1444; }
+
+.total-premium-wrap label { margin: 20px 10px; display: inline-block; }
+
+.pic-sec img { max-width: 100%; margin: 20px auto; display: block; }
+
+.informationbx_bg img.desktop {
+  max-width: 400px;
+}
+
+.informationbx_bg img.ipad { display: none; }
+
+.innr_footerbxs { margin: 20px 0 30px; }
+
+#myModalpremiumBreakup h3 { font-size: 20px; text-align: center; }
+
+.renewnow-page #myModalpremiumBreakup h3 { font-size: 24px; }
+
+/*********Car Insurance Renew Now**********/
+
+.renewnow-page .threedetailbxs ul li {
+  width: 50%;
+}
+
+.renewcdetpgbx .input-wrapper {
+  padding: 20px 30px;
+}
+
+.renewcdetpgbx h4 {
+  color: #160f38 !important;
+  margin: 20px 0;
+  font-size: 30px;
+}
+
+.renewnow-page a.popup {
+  color: #fff;
+  text-decoration:none;
+  font-size: 16px;
+  padding: 13px 30px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.renewnow-page a.popup:hover {
+  color: #1a1446;
+  border: 1px solid #ffd000;
+  background: #ffd000;
+}
+
+.renewnow-page .proceedbxs {
+  margin: 50px 0 20px;
+}
+
+.prenwregsbx input[type=text] {
+  max-width: 420px;
+}
+
+.renewcdetpgbx input[type=text] {
+  color: #191244;
+  font-weight: 700;
+}
+
+.health-renew.renewcdetpgbx input[type=text] {
+  font-weight: 400;
+}
+
+.ren_noclaimbxs ul li {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.polydetailtbx div .gstinputbxs .gstinputbxs1 {
+  width: 22.5%;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.polydetailtbx div .gstinputbxs .gstinputbxs2 {
+  width: 50%;
+  margin: 0 5px;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.polydetailtbx div .gstinputbxs .gstinputbxs3 {
+  width: 22.5%;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.renaddcvrbxs h4 {
+  font-size: 26px;
+}
+
+.renaddcvrbxs h4 span { font-weight: 700; }
+
+.prm_idvrnwdtlbxs .fullmnidvbox-wrap { padding: 0 15px; }
+
+.prm_idvrnwdtlbxs .fullmnidvbox {
+  background: #fffae6;
+  margin: 15px 0;
+  border: 1px solid #fed000;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.prm_idvrnwdtlbxs .fullmnidvbox .leftidvbox {
+  padding: 0 40px;
+}
+
+.prm_idvrnwdtlbxs .fullmnidvbox .rgtidvbox {
+  background: #1b1447;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.prm_idvrnwdtlbxs .fullmnidvbox p {
+  font-size: 21px;
+}
+
+.prm_idvrnwdtlbxs .fullmnidvbox .rgtidvbox p {
+  color: #fff !important;
+  font-weight: 700;
+}
+
+.ins_commentbx1.renewcdetpgbx .input-wrapper {
+  background: #fff;
+}
+
+.ins_commentbx1.renewcdetpgbx .input-wrapper.offwhite-bg, .prm_carrnwdtlbxs2 .input-wrapper.offwhite-bg {
+  background: #fffae5;
+}
+
+.ren_paydtlbxs ul li { width: 45%; }
+.claims-feed-form-box {
+    padding: 30px 80px!important;
+}
+.white{
+  color: #fff;
+  font-size: 14px;
+}
+.crb{
+	margin-top: 20px!important;
+    margin-right: 15px!important;
+	}
+/*********End Car Insurance Renew Now**********/
+
+@media only screen and (max-width:1024px) {
+  .informationbx_bg { width: 320px;}
+  .informationbx_bg_yellow {
+    height: 180px;
+  }
+  .informationbx_bg_yellow .informationbx_yellow_content {
+    padding: 20px 0;
+  }
+  .informationbx_bg_yellow .informationbx_yellow_content.health {
+    padding: 5px 0 0;
+  }
+  .informationbx_bg img.desktop { display: none; }
+  .informationbx_bg img.ipad {
+    display: block;
+    max-width: 325px;
+  }
+  .informationbx_yellow_content.health > img {max-width: 80px;}
+  .innrinformationbx h3 { font-size:24px; }
+  .home-promotion-car {
+    font-size: 20px;
+  }
+  .home-promotion-price {
+    font-size: 42px;
+  }
+  .home-promotion-save {
+    width: 180px;
+  }
+  .home-promotion-save.health {
+    width: 230px;
+  }
+  .home-promotion-save.bike { padding: 5px 15px; font-size: 30px; }
+  .premium-lisa-pic { display: none; }
+  .carpremiumbx .input-wrapper .rupeebox label { font-size: 30px; }
+  .input-wrapper label { font-size: 16px; }
+  .innrinfrmnbx1 ul li {
+    min-width: 130px;
+  }
+  .sec-banner { min-height: auto; }
+  .sec-banner .promotional-pic-wrap {
+     min-height: 130px; 
+  }
+  .promotional-text {
+    margin: 10px 0;
+    padding: 0 20px !important;
+  }
+  .dwnprpslbx .btn-wrap { text-align: center; }
+  .dwnprpslbx .btn-wrap .cta-btn {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  .rgtcarprmbx1 { min-height: auto; }
+}
+
+@media only screen and (max-width:991px) {
+  .dwnprpslbx .btn-wrap .cta-btn { width: 310px; }
+  .lftrenwplcydtlbx p { margin: 0 0 20px; }
+  .numberfldbxs .numbrinptbx { max-width: 75px!important; padding: 0 15px!important; }
+  .prm_idvrnwdtlbxs .fullmnidvbox-wrap { padding: 0; }
+  .prm_idvrnwdtlbxs .fullmnidvbox .leftidvbox { padding: 0 15px; }
+  .prm_idvrnwdtlbxs .fullmnidvbox p { font-size: 18px; }
+  .rgtrenwplcydtlbx { padding: 20px 0; border: none; }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+  .sec-banner { min-height: auto; }
+  .sec-banner .promotional-pic-wrap {
+     min-height: 110px; 
+  }
+  .promotional-text h3 {
+    font-size: 3em;
+  }
+  .promotional-text h4 {
+    font-size: 1.8em;
+  }
+  .claims-feed-form-box .radio-wrap ul li{
+    width: 42%!important;
+  }
+  .claims-feed-form-box .radio-wrap ul.workshop-details li {
+    width: 45%!important;
+}
+}
+
+@media only screen and (max-width:767px) {
+  .threedetailbxs ul li {
+    font-size: 18px;
+  }
+  .dwnprpslbx .btn-wrap .cta-btn {
+    max-width: 320px;
+    width: 95%;
+  }
+  .divRegFields { text-align: center; }
+  #carnumberform .numbrinptbx, .divRegFields .numbrinptbx {
+    text-transform: capitalize;
+    height: 45px;
+    font-size: 18px;
+    outline: none;
+    font-weight: bold;
+    width: 65px !important;
+    padding: 0 10px !important;
+    background: #fff;
+    border-radius: 15px !important;
+    color: #3d3c3c;
+  }
+  /*.abtyoudtls div {
+    width: 100%;
+    margin: 10px 0;
+  }*/
+  .innrinformationbx h3 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  .abtyoudtls div input {
+    width: 100%;
+    max-width: 360px;
+  }
+  .polstepbxs .backProceedbtn { position: static; float: left; }
+  .polstepbxs .proceedbtn { position: static; float: right;}
+  .innrinformationbx ul { text-align: center; }
+  .innrinformationbx ul li {
+    width: 100% !important;
+    margin: 10px auto;
+    max-width: 360px;
+    float: none;
+  }
+  .innrinfrmnbx1 .input-wrapper {
+    padding: 20px 10px;
+  }
+  .innrinfrmnbx1 h4 {
+    margin-top: 0;
+    font-size: 21px;
+  }
+  .carpremiumbx .input-wrapper .rupeebox label {
+    font-size: 28px;
+    padding: 15px 30px;
+  }
+  .premium-lisa-pic {
+    display: none;
+  }
+  /*.innrinformationbx ul li label {
+    padding: 5px 70px 5px 20px;
+  }*/
+  .pl_viewbxs ul li {
+    font-size: 18px;
+    padding:  10px 20px;
+  }
+  .pl_viewbxs ul li span {
+    display: block;
+    font-size: 18px;
+    margin: 10px 0 0;
+    float: none;
+  }
+  .scrollbar {
+    padding-right: 20px;
+    width: 100%;
+  }
+  .field-wrap {
+    margin: 10px 0 20px;
+    overflow: hidden;
+  }
+  .innrinfrmnbx1 p { text-align: center; }
+  .innrinfrmnbx1 h4 { text-align: center; margin: 20px 0 10px; }
+  .ins_commentbx1 .input-wrapper { padding: 20px 10px; }
+  #OTPdiv {text-align: center;}
+  #OTPdiv input[type="text"] { font-size: 16px; width: 120px; }
+  #OTPdiv .cta-btn { padding: 10px 20px; font-size: 16px; }
+  .thanku-premium-detail-wrap { overflow: hidden; }
+  .total-premium-wrap h3 { float: none; }
+  .input-wrapper label { text-align: center; font-size: 18px;}
+  .input-wrapper ul li label { text-align: left; }
+  #carnumberform .carnmbx p { width: 270px; margin: 10px 0; }
+  #carnumberform .carnmbx p a { display: block; }
+  .sec-banner.visible-xs { margin-top: -35px; }
+  .sec-banner .promotional-pic-wrap {
+    min-height: auto;
+  }
+  .sec-banner .promotional-pic-wrap {
+    max-width: 50%;
+  }
+  .promotional-text h3 {
+    font-size: 36px;
+    text-align: center;
+    margin: 10px 0 0 !important;
+  }
+  .promotional-text h4 {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0 20px !important;
+  }
+  .prenwregsbx input[type=text] {
+    margin-top: 20px;
+  }
+  .renewcdetpgbx .input-wrapper {
+    padding: 20px 10px;
+  }
+  .renewcdetpgbx h4 { text-align: center; }
+  .renewcdetpgbx input[type=text], .renewcdetpgbx select { display: block; margin: 0 auto 20px; }
+  .lftrenwplcydtlbx { padding: 20px 0; }
+  .lftrenwplcydtlbx p { padding: 10px 15px; font-size: 18px; margin: 0; }
+  .rgtrenwplcydtlbx { padding: 20px 0; border: none; }
+  .renwpolicydetlbx .yeardtlbx { font-size: 30px; padding: 10px 20px; }
+  .renwpolicydetlbx .yeardtlbx span:last-child { font-size: 18px; }
+  .renwpolicydetlbx .mnthdtlbx { font-size: 21px; padding: 10px 20px; }
+  .renwpolicydetlbx .mnthdtlbx span:last-child { font-size: 16px; }
+  .polydetailtbx div .gstinputbxs input { border-radius: 15px; margin: 5px 0 !important; }
+  .renaddcvrbxs label { text-align: left; padding: 0 10px !important; font-size: 16px; }
+  .numberfldbxs { text-align: center; }
+  .numberfldbxs .numbrinptbx {
+    border-radius: 20px!important;
+    max-width: 64px!important;
+    display: inline-block !important;
+    padding: 0 10px!important;
+  }
+  .prm_idvrnwdtlbxs .fullmnidvbox .rgtidvbox {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .input-wrapper h3 {text-align: center;}
+  .ins_commentbx1 .ply_detailbx_wrap {
+    max-width: 100%;
+    text-align: center;
+  }
+  .pie-chart-details { margin: 10% 0 0; } 
+  .claims-feed-form-box {
+    padding: 30px 30px!important;
+  }
+  .claims-feed-form-box .radio-wrap ul li{
+    width: 42%!important;
+  }
+  .claims-feed-form-box .radio-wrap ul.workshop-details li{
+    width: 100%!important;
+    margin-bottom: 10px;
+  }
+}
+
+
+@media only screen and (max-width:480px) {
+  .threedetailbxs ul li {
+    font-size: 16px;
+  }
+  .threedetailbxs ul li img {
+    display: none;
+  }
+  .renewnow-page .threedetailbxs ul li img {
+    display: inline-block;
+    max-width: 40px;
+  }
+  .input-wrapper {
+    background-image: none !important;
+    padding: 10px 20px;
+  }
+  .input-wrapper label {
+    padding: 0;
+  }
+  #carnumberform .numbrinptbx {
+    width: 68px !important;
+  }
+  .thanku-premium-detail {
+    display: block;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  .payment-methd { padding: 70px 0 0 0; background-position: top center !important; }
+  #OTPdiv input[type="text"] { font-size: 14px; width: 120px; }
+  #OTPdiv .cta-btn { padding: 10px 20px; font-size: 14px; }
+  .cta-btn { padding: 10px 15px; }
+  p.step-num {
+    font-size: 21px;
+  }
+}
+
+
+
+/****** Style Star Rating Widget *****/
+
+.rate {
+  float: none;
+  height: 46px;
+  margin: 0 auto 20px;
+  display: inline-block;
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:36px;
+  color:#ccc;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+
+/**********Health - Buy Now************/
+
+.health-buynow .prm_renewdtlbxs.extra-padd { padding-bottom: 100px; }
+
+.prm_renewdtlbxs .disease-list {
+  background: #ffd000;
+  margin: 10px 0;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.prm_renewdtlbxs input[type=text] {
+  display: inline-block;
+}
+
+.recent-link {
+  position: relative;
+  display: inline;
+  color: #252525;
+  padding-bottom: 18px;
+}
+
+.recent-link .fa {
+  font-size: 26px;
+  color: #fff;
+  margin: -10px 0 0 100px;
+}
+
+.hovercard { 
+  position: absolute; 
+  display: none;
+  z-index: 2;
+  top: 32px;
+  left: -100px;
+  /*transform: translateX(-50%);*/
+}
+
+.disease-list:hover + .hovercard, .hovercard:hover { 
+  display: block;
+  transition: 0.3s;
+  transition-delay: 0.1s;
+}
+
+.tooltiptext {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  background-color: #fff;
+  padding: 0 15px; 
+  border-radius: 5px; 
+  color: #191244;
+  transition: 1s;
+  width: 750px;
+}
+
+.tooltiptext p, .tooltiptext ul li { font-size: 12px; color: #191244 !important; margin: 2px 0 ; }
+
+.tooltiptext ul li { list-style: inside; }
+
+.health-buynow .prm_renewdtlbxs .radio-wrap ul li {
+  background: #fff;
+  margin: 0 0 0 20px;
+  max-width: 180px;
+  width: 35%;
+}
+
+.health-buynow .prm_renewdtlbxs .radio-wrap ul li:first-child {
+  margin: 0;
+}
+
+.prm_renewdtlbxs .radio-wrap ul li label span {
+  color: #191244;
+}
+
+#getquoterrMsg {
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #191244 !important;
+  max-width: 360px;
+  width: 100%;
+}
+
+.prm_idvrnwdtlbxs4 {
+  margin: 30px 20px 20px;
+  position: relative;
+  padding: 50px;
+  background: #fffae5;
+  border-radius: 10px;
+}
+
+.prm_idvrnwdtlbxs4 h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.health-quote-banner  {  
+  background: url(../images/health-quote-bg.jpg) center top no-repeat;
+  background-size: cover;
+  min-height: 530px;
+}
+
+.health-quote-banner-txt {
+  /*max-width: 200px;
+  width: 100%;*/
+  padding: 20px 50px;
+}
+
+.health-quote-banner-txt h3 {
+  font-size: 54px;
+  color: #160f38;
+  margin: 20px 0;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.health-quote-banner-txt h4 {
+  background: #ffd000;
+  display: inline-block;
+  border-radius: 15px;
+  margin: 0;
+  padding: 5px 30px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #160f38;
+}
+
+.health-buynow .prm_renewdtlbxs > h3 {
+  font-size: 36px;
+}
+
+.triangular-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 350px solid #d2ab00;
+  border-left: 250px solid transparent;
+}
+
+.prm_idvrnwdtlbxs4_txt {
+  margin: 30px 0;
+  min-height: 300px;
+}
+
+.prm_idvrnwdtlbxs4_txt h4 {
+  color: #160f38;
+  text-align: left;
+  font-size: 24px;
+}
+
+.prm_idvrnwdtlbxs4_txt p {
+  font-size: 18px;
+}
+
+.health-banner-lisa {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.lisa-health-quote { bottom: 25%; }
+
+.health-banner-lisa img {
+  max-width: 250px;
+  width: 100%;
+}
+
+.health-banner-lisa.lisa-health-quote img {
+  max-width: 280px;
+}
+
+.get-number {
+  max-width: 360px;
+}
+
+.get-number input[type=text] {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.get-number button {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.get-number .minus button {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.btn-number {
+  height: 55px;
+}
+
+.addonplans label {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.bult-wrap {
+  margin: 20px 0;
+  padding: 0 30px;
+}
+
+.bult li {
+  background: #fff;
+  border: 1px solid #acacac;
+  overflow: hidden;
+  display: block;
+  text-align: left;
+  border-radius: 30px;
+  margin: 10px auto !important;
+  color: #191244;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 15px;
+}
+
+.bult li .fa {
+  border-radius: 50%;
+  color: #fff;
+  background: #53e25f;
+  padding: 3px;
+}
+
+.innrinformationbx .bult li {
+  display: block;
+  float: none;
+  width: 100%;
+}
+
+.recommended-plan-radio ul li label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+h5.health-offer-discount {
+  animation: blinker 0.8s linear infinite;
+  margin: 30px 0 0;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+@keyframes blinker {  
+50% { opacity: 0; }
+}
+
+.health-btn-wrap {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.health-btn-wrap > div {
+  display: inline-block;
+  width: 200px;
+  margin: 0 15px;
+}
+
+.health-btn-wrap > div .btn {
+  width: 100%;
+}
+
+.get-qte2 {
+  color: #fff;
+  font-size: 18px;
+  text-align: right;
+  margin-right: 0px;
+  padding: 10px 11px 6px 10px;
+  width: 80px;
+  margin-top: 9px;
+  float: right;
+}
+
+.get-qte2 span {
+  line-height: 1.2em;
+  border-bottom: 1px solid #fff;
+}
+
+.table-responsive { width: 100%; }
+
+.input-wrapper.zero-padding { padding: 0; }
+
+.table-bordered { border-radius: 10px; }
+
+.table2 { margin-bottom: 0; }
+
+.insu-tble {
+  max-width: 99%;
+}
+
+.table2 th, .insu-tble th {
+  background: #ffd000;
+  text-align: center;
+  padding: 10px 20px!important;
+}
+
+.table2 tr, .insu-tble tr {
+  background: #fffae5;
+  border-radius: 15px;
+  margin-bottom: 2px;
+}
+
+.table2 td, .insu-tble td {
+  background: #fffae5;
+  font-size: 16px;
+  border: 1px solid #ffd000 !important;
+  font-weight: 700;
+  width: 18%;
+  min-width: 150px;
+  padding: 10px 20px!important;
+  vertical-align: middle !important;
+  text-align: center;
+}
+
+.table2 td .cta-btn, .insu-tble td .cta-btn {
+  display: block;
+}
+
+.insu-tble td input, .insu-tble td select {
+  margin-top: 10px;
+}
+
+.insu-tble td {
+  width: 25%;
+}
+
+.table2 td p {
+  text-align: center;
+}
+
+.table2 td .icon-con h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.table2 td:first-child + td {
+  color: #fff;
+  background: #1a1446;
+
+}
+
+.pin-inc-table { margin: 0; }
+
+.pin-inc-table td { border-top: none !important;width: 18%;  }
+
+.pin-inc-heding { padding: 0 20px; }
+
+.pin-inc-heding h4 { text-align: center; }
+
+.pin-inc-heding p {
+  background: #fff;
+  border: 1px solid #acacac;
+  border-radius: 30px;
+  text-align: center;
+  min-width: 150px;
+  margin: 0 auto 10px;
+  color: #191244;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 15px;
+}
+
+.price {
+  color: #ffd000;
+  background: #1a1446;
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-weight: 400;
+}
+
+.price .fa { color: #fff; }
+
+.price-rate {
+  font-size: 30px;
+}
+
+.price-rate label {
+  color: #fff;
+  display: inline-block;
+  font-size: inherit;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.select-no {
+  margin: 15px 0 0;
+  border: 1px solid #d6d5d5;
+  text-transform:capitalize;
+  height:45px;
+  width: 100%;
+  max-width: 300px;
+  font-size:16px;
+  font-weight:400;
+  outline: none;
+  padding:0;
+  margin-bottom: 10px;
+  background:#fff;
+  border-radius:30px;
+  color:#3d3c3c;
+}
+
+.select-no .for {
+  background: #1a1446;
+  color: #fff;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  height: 43px;
+  width: 60px;
+  text-align: center;
+  padding: 10px;
+  float: left;
+}
+
+.select-no select, .select-no select:focus {
+  border: none;
+  outline: none;
+  height:43px;
+  width: 115px;
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ffffff;
+  -webkit-appearance: none;
+  background-position-x: 90%;
+}
+
+.carousel-inner>.item {
+  min-height: 140px;
+}
+
+.carousel-inner>.item blockquote {
+  border-left: none;
+}
+
+.carousel-indicators {
+  position: static;
+  left: 0;
+  margin-left: 0;
+  width: 100%;
+}
+
+.carousel-indicators li {
+  background-color: #ccc;
+  border-color: #ccc;
+}
+
+.carousel-indicators li.active {
+  background-color: #000;
+  border-color: #000;
+}
+
+.ttl-pre-tble {
+  background: #ffd000;
+  margin-bottom: 0;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.ttl-pre-tble td {
+  border-top:none!important;
+  width: 33.3%;
+  min-width: 150px;
+  text-align: center;
+  border-left: 1px solid #1a1446;
+  padding: 20px!important;
+}
+
+.ttl-pre-tble td:first-child {
+  border-left:none;
+}
+
+.get-qte2-link {
+  overflow: hidden;
+  display: block;
+}
+
+.pre-to {
+  font-size: 16px;
+}
+
+.pre-lft-ico-wrap {
+  padding-bottom: 30px!important;
+}
+
+#myModalAddOnPopup .modal-content {
+  background: #fffae5;
+  max-width: 80%;
+  width: 80%;
+}
+
+.health-addon {
+  margin: 20px 0;
+  padding: 0 30px;
+}
+
+.health-addon .bult {
+  margin: 30px 0 0;
+}
+
+.health-addon .bult li {
+  background: #1a1446;
+  color: #fff;
+}
+
+.health-addon .bult li .fa {
+  border-radius: 50%;
+  color: #1a1446;
+  background: #fff;
+  padding: 3px;
+}
+
+.addonplans h4 {
+  font-size: 16px;
+}
+
+.addonplans > h3 {
+  margin: 10px 0;
+  font-size: 26px;
+  line-height: 1.4em;
+}
+
+/*.prm_lftcarrnwdtlbxs2 {
+  max-width: 360px;
+  width: 100%;
+}*/
+
+/*******Horizontal scroll styling**********/
+
+.pre-lft-ico {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.pre-lft-ico::-webkit-scrollbar {
+  width: 1em;
+}
+
+.pre-lft-ico::-webkit-scrollbar-track {
+  background: #1a1446;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.pre-lft-ico::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #ffd000;
+  outline: none;
+}
+
+.pre-lft-ico::-webkit-scrollbar:vertical {
+  display: none;
+}
+
+.health-addon-renew > img {
+  margin: 0 auto;
+}
+
+/*******End Horizontal scroll styling**********/
+
+/*.prmi_renewdtlbxs h3 {
+  text-align: left;
+  font-size: 
+}*/
+
+@media only screen and (max-width:1024px) {
+  .prm_idvrnwdtlbxs4 {
+    padding: 20px;
+  }
+  .prm_idvrnwdtlbxs4_txt {
+    margin: 30px 0;
+  }
+  .prm_idvrnwdtlbxs4 h2 {
+    font-size: 30px;
+  }
+  .lisa-health-quote {
+    bottom: 35%;
+  }
+  .health-banner-lisa.lisa-health-quote img {
+    max-width: 200px;
+  }
+  .recommended-plan-radio ul li label {
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+  }
+  .sec-banner.health-insurance {
+    padding: 32px 50px 20px;
+  }
+  .sec-banner.health-insurance h3 {
+    font-size: 27px;
+  }
+  .health-quote-banner {
+    min-height: 480px;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 991px) {
+  .hovercard {
+    left: -240px;
+  }
+  .tooltiptext {
+    width: 720px;
+  }
+  .recent-link .fa {
+    margin-left: 240px;
+  }
+  .lisa-health-quote {
+    display: none;
+  }
+  .prm_idvrnwdtlbxs4_txt {
+    min-height: 650px;
+  }
+  .sec-banner.health-insurance {
+    background-position: -260px 0;
+  }
+  .health-quote-banner {
+    min-height: 270px;
+  }
+  .health-quote-banner-txt {
+    padding: 15px;
+  }
+  .health-quote-banner-txt h3 {
+    margin: 10px 0;
+    font-size: 23px;
+  }
+  .health-quote-banner-txt h4 {
+    font-size: 18px;
+  }
+  .health-addon-renew .bult li {
+    font-size: 13px;
+    padding: 10px 5px;
+  }
+  .bult-wrap {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .prm_lftcarrnwdtlbxs2 > div { text-align: center!important; }
+  .prm_lftcarrnwdtlbxs2 label {
+    text-align: center;
+  }
+  .prm_lftcarrnwdtlbxs2 ul li label {
+    text-align: left;
+  }
+  .prm_renewdtlbxs { padding-bottom: 0; }
+  .prm_idvrnwdtlbxs4 {
+    margin: 20px 0;
+  }
+  .health-buynow .prm_renewdtlbxs .radio-wrap ul {
+    text-align: center;
+  }
+  .health-buynow .prm_renewdtlbxs .radio-wrap ul li {
+    display: inline-block;
+    margin: 0 5px !important;
+    width: 45%;
+    float: none;
+  }
+  .health-buynow .threedetailbxs ul li {
+    font-size: 18px;
+    padding: 10px 5px;
+  }
+  .hovercard {
+    left: auto;
+    right: -15px;
+  }
+  .recent-link .fa {
+    margin: -10px 0 0 230px;
+  }
+  .tooltiptext {
+    width: 330px;
+  }
+  .get-number {
+    margin: 0 auto;
+  }
+  .health-buynow .prm_renewdtlbxs {
+    padding-bottom: 0;
+  }
+  .prm_idvrnwdtlbxs4_txt {
+    min-height: 670px;
+    margin: 0;
+  }
+  .lisa-health-quote {
+    display: none;
+  }
+  .table2 td {
+    padding: 10px 5px!important;
+  }
+  .health-buynow .prm_renewdtlbxs > h3 {
+    font-size: 26px;
+  }
+  .sec-banner.health-insurance {
+    padding: 20px 20px 0;
+  }
+  .sec-banner.health-insurance h3 {
+    font-size: 23px;
+  }
+  .sec-banner.health-insurance .offer-wrap .health-banner-icon {
+    left: -10px;
+    max-width: 80px;
+  }
+  .sec-banner.health-insurance h3 {
+    margin: 15px 0;
+  }
+  .health-quote-banner {
+    background-size: contain;
+    min-height: 340px;
+  }
+  .health-quote-banner-txt {
+    padding: 15px 20px;
+  }
+  .health-quote-banner-txt h3 {
+    margin: 10px 0;
+    font-size: 26px;
+  }
+  .health-quote-banner-txt h4 {
+    font-size: 20px;
+  }
+  .bult-wrap {
+    margin: 0;
+    padding: 0;
+  }
+  .bult-wrap .bult {
+    margin: 0;s
+  }
+}
+
+
+@media only screen and (max-width:320px) {
+  .prm_renewdtlbxs .disease-list {
+    display: inline-block;
+  }
+  .hovercard {
+    left: -110px;
+  }
+  .recent-link .fa {
+    margin: -10px 0 0 10px;
+  }
+  .tooltiptext {
+    width: 280px;
+  }
+  .prm_idvrnwdtlbxs4_txt {
+    min-height: 725px;
+  }
+  .sec-banner.health-insurance h3 {
+    font-size: 20px;
+  }
+  p.step-num {
+    font-size: 18px;
+  }
+}
+
+/**********End Health - Buy Now************/
+

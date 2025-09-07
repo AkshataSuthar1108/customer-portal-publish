@@ -1,0 +1,106 @@
+﻿
+@{
+    ViewBag.Title = "Liberty General Insurance: Help People Live Safer with More Security";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section MetaTags{
+    <meta name="description" content="Liberty General Insurance is one of the most trusted General Insurance Companies in India offers general insurance products for your Car, Two Wheeler, Health & more. Get instant quotes and buy insurance policy online now!">
+    <meta name="keywords" content="general insurance,  general insurance company,  general insurance companies in india,  general insurance company in india,  general insurance india,  general insurance in india,  general insurance products,  online general insurance,  general insurance policy,  LGI, Liberty General Insurance" />
+}
+
+<div class="top-banner">
+    <!-- <div class="container"> -->
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a class="car-icon" href="#car" role="tab" data-toggle="tab">
+                <span>&nbsp;</span>Car
+            </a>
+        </li>
+        <li>
+            <a class="bike-icon" href="#two-wheeler" role="tab" data-toggle="tab">
+                <span>&nbsp;</span>Two Wheeler
+            </a>
+        </li>
+        <li>
+            <a class="health-icon" href="#health" role="tab" data-toggle="tab">
+                <span>&nbsp;</span>Health
+            </a>
+        </li>
+        <li>
+            <a class="ipa-icon" href="#ipa" role="tab" data-toggle="tab">
+                <span>&nbsp;</span>IPA
+            </a>
+        </li>
+        <li>
+            <a class="campaign-icon" href="#campaign" role="tab" data-toggle="tab">
+                <span>&nbsp;</span>Campaign
+            </a>
+        </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane active in" id="car">
+            <h3>Drive Easy Stay Insured</h3>
+            <h4>Looking for Zero Speed Bumps for Claims? Check Us Out</h4>
+            <p>Top-gear policies and high-speed claim settlement for your four wheels.</p>
+            <div class="btn-wrap">
+                <button class="btn cta-btn white-btn" href="car-insurance-quote-1-2.html">Buy Online</button>
+                <button class="btn cta-btn white-btn" href="car-insurance-renew-1.html">Renew LGI Policy</button>
+                <button class="btn cta-btn white-btn" href="#myModalrequestCallbackForm" data-toggle="modal">Request Callback</button>
+
+            </div>
+
+            <img src="~/Contents/images/Masthead-banner_Car.png" alt="car-insurance">
+        </div>
+        <div class="tab-pane" id="two-wheeler">
+            <h3>Burn Rubber Not Your Safety</h3>
+            <h4>Zip through Roads with Maximum Coverage</h4>
+            <p>Kickstart your two-wheeler ride with our best insurance plans.</p>
+            <div class="btn-wrap">
+                <button class="btn cta-btn white-btn" href="two-wheeler-insurance-quote-1-2.html">Buy Online</button>
+                <button class="btn cta-btn white-btn" href="#">Renew LGI Policy</button>
+                <button class="btn cta-btn white-btn" href="#myModalrequestCallbackForm"  data-toggle="modal">Request Callback</button>
+            </div>
+            <img src="~/Contents/images/Masthead-banner_Two-wheeler.png" alt="two-wheeler-insurance">
+        </div>
+        <div class="tab-pane" id="health">
+            <h3>Better Health Better Life</h3>
+            <h4>Stay Protected from Life’s Curveballs</h4>
+            <p>Need a safety net against health uncertainties? Choose our insurance plans.</p>
+            <div class="btn-wrap">
+                <button class="btn cta-btn white-btn" href="#">Buy Online</button>
+                <button class="btn cta-btn white-btn" href="#">Renew LGI Policy</button>
+                <button class="btn cta-btn white-btn" href="#myModalrequestCallbackForm" data-toggle="modal">Request Callback</button>
+            </div>
+            <img src="~/Contents/images/Masthead-banner_Health.png" alt="health-insurance">
+        </div>
+        <div class="tab-pane" id="ipa">
+            <h3>Protect the Invaluable</h3>
+            <h4>Get Peace of Mind in a Few Clicks</h4>
+            <p>Life is precious are you and yours covered for unpredictable accidents?</p>
+            <!-- <div class="btn-wrap">
+              <a class="btn cta-btn" href="#">Buy Online</a>
+              <a class="btn cta-btn white-btn" href="#">Renew LGI Policy</a>
+            </div> -->
+            <img src="~/Contents/images/Masthead-banner_IPA.png" alt="IPA">
+        </div>
+        <div class="tab-pane" id="campaign">
+            <div class="campaign-holder">
+                <a target="_blank" href="https://www.libertyinsurance.in/CampaignHome/"><img src="~/Contents/images/campaign-banner.jpg" alt="campaign-banner"></a>
+            </div>
+            <!-- <h3 class="campaign-hashtag">#BharoseKaVaada</h3>
+            <p><a class="btn knowmore-btn" href="#">KNOW MORE...</a></p> -->
+        </div>
+        
+    </div>
+    <!-- </div> -->
+</div>
+
+<div id="myModalrequestCallbackForm" class="modal">
+    @Html.Partial("~/Views/Shared/PartialViews/_RequestCallBack.cshtml")
+</div>
+<script type="text/javascript">
+   
+</script>
